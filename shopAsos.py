@@ -29,25 +29,6 @@ def find_mins(products, x):
 	for i in range(x):
 		mins.append(products.pop(min(products)))
 	return mins
-#########
-
-	# finds x cheapest products in list
-	#mins = []
-
-#	for prod in products:
-
-		# if mins isn't full, insert
-	#	if len(mins) < x:
-	#		sorted_insert(prod, mins)
-	#	else:
-			# compare with last item in mins (the max)
-			#if prod.price < mins[-1].price:
-	#		if prod.price < mins[0].price:
-	#			sorted_insert(prod, mins)
-	#			mins.pop(0)
-	#			#mins.pop()
-
-	#return mins
 
 if __name__ == '__main__':
 	if len(sys.argv) > 2:
